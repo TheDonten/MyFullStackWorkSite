@@ -12,7 +12,7 @@ from flask_jwt_extended import JWTManager
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-//Да, лучше ключ гененировать случайно при определенном истечении времени
+# Да, лучше ключ гененировать случайно при определенном истечении времени
 PRIVATE_KEY = "eyJhbGciOiJIUzI1NiJ9.ew0KICAic3ViIjogIjEyMzQ1Njc4OTAiLA0KICAibmFtZSI6ICJBbmlzaCBOYXRoIiwNCiAgImlhdCI6IDE1MTYyMzkwMjINCn0.0y_t-uxaJx-DJIIxg3wvQbE8EOEeW4b-vjAisCoQG9g=="
 
 def create_json (data,description):
